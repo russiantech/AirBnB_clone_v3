@@ -74,3 +74,26 @@ class DBStorage:
     def close(self):
         """call remove() method on the private session attribute"""
         self.__session.remove()
+
+    # for task 0x05. AirBnB clone - RESTful API
+
+    def get(self, cls, id):
+
+        '''
+        Retrieves an obj from the file storage by class and id.
+        '''
+        if cls in classes.values() and id and type(id) == str:
+            d_obj = self.all(cls)
+            for key, value in d_obj.items():
+                if key.split(".")[1] == id:
+                    return value
+        return None
+
+    def count(self, cls=None):
+        '''
+        count the num of objects in storage matching the given class.
+        '''
+        data = self.all(cls)
+        if cls in classes.values():
+            data = self.all(cls)
+        return len(data)
