@@ -156,7 +156,23 @@ No known bugs at this time.
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Chris James - [Github: https://github.com/russiantech / Twitter: https://twitter.com/chris_jsmes]
 
 Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
+
+
+#Chris James Part Of The Project as regards to alx task.
+## Introduction:
+This is the AirBnB clone project with a RESTful API implemented using Python and Flask. The project aims to replicate the functionality of AirBnB and focuses on understanding key concepts such as REST API, Flask, and modular application design.
+
+## New Contributions:
+- Added [feature/enhancement] to improve [specific aspect].
+- Fixed [bugs/issues] for a more stable application.
+- Collaborated with team members Babatunde Abdulazeez and Chris James on test cases and documentation.
+
+## Installation:
+Ensure you have Flask installed:
+```bash
+$ pip3 install Flask
